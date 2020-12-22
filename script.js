@@ -20,8 +20,3 @@ let sophia = new Books("Sophie's World", "Jostein Gaarder", 500, "read");
 
 myLibrary.push(theHobbit, theLOTR, GOT, sombra, sophia);
 console.table(myLibrary);
-
-
-function addBooks(){
-
-}

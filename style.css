@@ -1,3 +1,52 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: darkslategrey;
+}
+
 #thetitle{
     text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+#super-container{
+    border-top: 3px solid black;
+}
+
+#add-section{
+    padding-left: 50px;
+}
+
+#add-manga{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: whitesmoke;
+    font-size: 30px;
+}
+
+#add-manga:hover{
+    cursor: pointer;
+}
+#add-manga:focus{
+    outline: none;
+}
+
+#question{
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+#cards-container{
+    margin: 100px auto auto 50px;
+}
+
+#card1{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    width: 300px;
+    color: whitesmoke;
 }
