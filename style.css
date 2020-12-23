@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: darkslategrey;
+    background-color: #444444;
 }
 
 #thetitle{
@@ -9,22 +9,28 @@ body{
     font-style: italic;
     font-weight: bold;
     color: whitesmoke;
+    background: linear-gradient(90deg, rgba(2,69,70,1) 0%, rgba(9,121,87,1) 35%, rgba(118,177,189,1) 100%);
+    padding: 0;
+    margin: 0;
+    line-height: 100px;
+    width: 100%;
 }
 
-#super-container{
-    border-top: 3px solid black;
-}
 
 #add-section{
     padding-left: 50px;
+    text-align: center;
+    padding-top: 100px;
 }
 
 #add-manga{
     width: 70px;
     height: 70px;
     border-radius: 35px;
-    background-color: whitesmoke;
+    background: linear-gradient(90deg, rgba(2,69,70,1) 0%, rgba(9,121,87,1) 35%, rgba(118,177,189,1) 100%);
     font-size: 30px;
+    border: 1px solid transparent;
+    color: whitesmoke;
 }
 
 #add-manga:hover{
@@ -34,19 +40,18 @@ body{
     outline: none;
 }
 
-#question{
-    color: whitesmoke;
-    font-weight: bold;
-}
-
 #cards-container{
     margin: 100px auto auto 50px;
+    display: flex;
 }
 
 #card1{
     border: 1px solid black;
     border-radius: 10px;
-    background-color: black;
-    width: 300px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-right: 50px;
+    background: linear-gradient(90deg, rgba(2,69,70,1) 0%, rgba(9,121,87,1) 35%, rgba(118,177,189,1) 100%);
+    width: 250px;
     color: whitesmoke;
 }
