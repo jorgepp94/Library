@@ -55,3 +55,7 @@ body{
     width: 250px;
     color: whitesmoke;
 }
+
+#card1 p {
+    font-weight: bold;
+}
