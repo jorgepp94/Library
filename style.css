@@ -59,3 +59,14 @@ body{
 #card1 p {
     font-weight: bold;
 }
+
+.formPopup {
+    display: none;
+    position: fixed;
+    left: 45%;
+    top: 5%;
+    transform: translate(-50%, 5%);
+    border: 3px solid #999999;
+    z-index: 9;
+    background: linear-gradient(90deg, rgba(2,69,70,1) 0%, rgba(9,121,87,1) 35%, rgba(118,177,189,1) 100%);
+}

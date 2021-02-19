@@ -26,6 +26,28 @@
                 </div>
 
 
+
+                <div class="mangaPopup">
+                    <div class="formPopup" id="popupForm">
+                      <form  class="formContainer">
+                        <h2>ADD YOUR FAVORITE MANGA HERE</h2>
+                        <p>TITLE</p>
+                        <input type="text" id="email" placeholder="Manga Title" name="email" required>
+                        <p>AUTHOR</p>
+                        <input type="password" id="psw" placeholder="Author Name" name="psw" required>
+                        <p>VOLUMES</p>
+                        <input type="text" placeholder="Volumes" required>
+                        <br>
+                        <p>Have you read it?: <input type = "checkbox" id="haveRead" value="SI"></p>
+                        <div>
+                            <button type="submit" class="btn">ADD</button>
+                            <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
+                        </div>
+                      </form>
+                    </div>
+                </div>
+
+
                 
             </div>
             
@@ -34,7 +56,7 @@
 
 
         <div id="add-section">
-            <button id="add-manga">+</button>
+            <button id="add-manga" onclick="openForm()">+</button>
         </div>
         <script type="text/javascript" src="script.js"></script>
     </body>

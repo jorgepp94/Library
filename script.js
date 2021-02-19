@@ -35,3 +35,13 @@ let creator = document.createElement("div");
 creator.id = "card1";
 creator.innerHTML = `<span>Title:</span><p>${myLibrary[0].title}</p><span>Author:</span><p>${myLibrary[0].author}</p><span>Volumes:</span><p>${myLibrary[0].numPages}</p><span>Have you read it?:</span><p>${myLibrary[0].haveRead}</p>`;
 generator.appendChild(creator);
+
+
+
+
+function openForm() {
+    document.getElementById("popupForm").style.display = "block";
+  }
+  function closeForm() {
+    document.getElementById("popupForm").style.display = "none";
+  }
